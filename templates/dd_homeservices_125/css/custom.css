@@ -1,0 +1,47 @@
+
+/* ruxin news */
+
+.ruxin_news .lead_title, .ruxin_news .intro_title, .ruxin_news .link_title {
+  font-size: 16px;
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #003c77;
+  display: block;
+  line-height: 125%;
+}
+
+.ruxin_business_hours_101 {
+  box-shadow: 2px 1px 10px 2px rgb(0 0 0 / 14%) !important;
+}
+
+/* header component*/
+.sp-page-title {
+  background-color: rgba(0, 0, 0, 0.849);
+  background-image:url(../../../images/dd-homeservices-125/bgnews.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 130px;
+}
+
+/*menu*/
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item > a {
+  border-bottom: 1px solid rgba(224 224 224 / 40%);
+  margin-bottom: 0;
+  width: 80%;
+}
+.sp-megamenu-parent .sp-mega-group > li > a ::after {
+  color: #ff9a03;
+}
+.sp-megamenu-parent > li > a,
+.sp-megamenu-parent > li > span {
+  padding: 0 10px;
+}
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+  background: #ffffff !important ;
+  margin-top: 30px;
+}
+
+#sp-header.header-sticky ~ section#sp-main-body{
+  padding-top:0px;
+}
